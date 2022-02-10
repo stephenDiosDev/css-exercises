@@ -1,0 +1,19 @@
+p {
+    background-color: rgb(252, 143, 143);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.large {
+    font-size: 24px;
+}
+
+#bigbold {
+    background-color: rgb(100, 255, 100);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#bigblue {
+    font-size: 36px;
+    color: rgb(25, 221, 255);
+}
