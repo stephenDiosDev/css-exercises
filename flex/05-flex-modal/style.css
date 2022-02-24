@@ -15,11 +15,25 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-size: large;
+  font-weight: bold;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+  display: flex;
+}
+
+.middle {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .icon {
@@ -31,6 +45,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
@@ -44,6 +59,7 @@ body {
   height: 24px;
   width: 24px;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
